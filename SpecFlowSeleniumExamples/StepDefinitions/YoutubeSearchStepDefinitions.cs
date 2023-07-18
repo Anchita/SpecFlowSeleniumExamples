@@ -18,7 +18,7 @@ namespace SpecFlowSeleniumExamples.StepDefinitions
 
         public YoutubeSearchStepDefinitions()
         {
-            chromeDriver = new ChromeDriver("driverpath");
+            chromeDriver = new ChromeDriver();
         }
  
 
